@@ -1,0 +1,27 @@
+{
+  "name": "koa-initialize",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "type": "module",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "rimraf setup && node index.js",
+    "test-g": "rimraf setup && koa-initialize"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "ejs": "^3.1.7",
+    "execa": "^6.1.0",
+    "inquirer": "^8.2.4",
+    "prettier": "^2.6.2",
+    "rimraf": "^3.0.2"
+  }
+}
